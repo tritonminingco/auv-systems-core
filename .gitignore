@@ -1,0 +1,59 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Colcon build files
+.colcon/
+.colcon_build
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Jetson/NVIDIA build cache
+*.nvvp
+*.nvgpuprofile
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Simulation outputs
+*.world
+*.bag
+*.bag.active
+*.db3
+*.sqlite3
+*.rosinstall
+*.launch.pyc
+ros2_ws/
+
+# Large media/logs
+logs/
+*.log
+*.tmp
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Generated docs
+/docs/_build/
